@@ -1,1 +1,2 @@
-# theamericas
+# The Americas
+
