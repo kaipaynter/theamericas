@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktheamericas=self.webpackChunktheamericas||[]).push([[527],{1593:function(e,t,a){a.r(t);var l=a(7294),n=a(2737);t.default=()=>l.createElement(n.Z,{fullMenu:!0},l.createElement("article",{id:"main"},l.createElement("header",null,l.createElement("h2",null,"Locations")),l.createElement("p",{className:"center"},"Sydney, Australia",l.createElement("br",null),"2130"),l.createElement("p",{className:"center"},"Los Angeles, CA",l.createElement("br",null),"90002")))}}]);
+//# sourceMappingURL=component---src-pages-locations-js-6c51a164775dce2bfaa3.js.map
