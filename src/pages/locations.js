@@ -13,12 +13,6 @@ const LocationsPage = () => (
         <br />
         2130
       </p>
-      <p className='center'>
-        Los Angeles, CA
-        <br />
-        90002
-      </p>
-
 
     </article>
   </Layout>
