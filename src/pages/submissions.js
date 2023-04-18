@@ -13,7 +13,7 @@ const SubmissionsPage = () => (
         This coming season, we are thrilled to share a collection of truly remarkable works that shine a light on our shared humanity. We hope you join us on this artistic journey by submitting an expression of interest.
       </p>
       <p className='center'>
-        "Buckle up: it is going to be a wild ride!" - Rober Harrell, Actor
+        "Buckle up: it is going to be a wild ride!" - Robert Harrell, Actor
       </p>
       <p className='center'>
         The Americas produce a wide range of theatre, from musicals/musical show cases to comedies, dramas, and original new work.
@@ -25,7 +25,7 @@ const SubmissionsPage = () => (
         Candidates should email their professional headshot/resumes, portfolios (links or PDF), and a creative statement to contact@beartigerproductions.com.
       </p>
       <p className='center'>
-        All artists will be considered regardless of race, color, creed, religion, national origin, ancestry, age, sex, sexual orientation, gender identity and/or expression, political persuasion or belief, marital status, familial status, physical or mental disability, veteran status, or status as a whistleblower. The Phoenix Theatre Company is an equal-opportunity employer.
+        All artists will be considered regardless of race, color, creed, religion, national origin, ancestry, age, sex, sexual orientation, gender identity and/or expression, political persuasion or belief, marital status, familial status, physical or mental disability, veteran status, or status as a whistleblower.
       </p>
     </article>
   </Layout>
