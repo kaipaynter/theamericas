@@ -5,10 +5,9 @@ import Layout from '../components/Layout';
 const ContactPage = () => (
   <Layout fullMenu>
     <article id="main">
-      <header>
-        <h2>Contact</h2>
-      </header>
     </article>
+    <header>
+      </header>
     <section className="main">
       <form method="post" action="https://formspree.io/f/mvodweje">
         <div className="field half first">

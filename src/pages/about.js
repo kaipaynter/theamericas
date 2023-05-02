@@ -5,8 +5,7 @@ import Layout from '../components/Layout';
 const AboutPage = () => (
   <Layout fullMenu>
     <article id="main">
-      <header>
-        <h2>About</h2>
+    <header>
       </header>
       <p className='center'>
         Founded in 2023, The Americas is an American (led) theatre company, operating out of Sydney, Australia. The Americas hold the distinction of being the only American professional theatre company, (crew, talent, and works) in Australia. Under the leadership of Producing Artistic Director, Kirk Carrington-Hastings and Managing Director, Kai Paynter, The America's commitment is to bring diverse, high-standard, American shows to the beautiful Syndey stages.

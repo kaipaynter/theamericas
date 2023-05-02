@@ -7,11 +7,7 @@ const SubmissionsPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
-        <h2>Submissions Policy</h2>
       </header>
-      <p className='center'>
-        "Buckle up: it is going to be a wild ride!" - Robert Harrell, Actor
-      </p>
       <p className='center'>
         We are thrilled to share a collection of truly remarkable works that shine a light on our shared humanity. We hope you join us on this artistic journey by submitting an expression of interest.
       </p>
