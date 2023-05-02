@@ -5,9 +5,9 @@ import Layout from '../components/Layout';
 const ContactPage = () => (
   <Layout fullMenu>
     <article id="main">
-    </article>
-    <header>
-      </header>
+    
+    <header />
+
     <section className="main">
       <form method="post" action="https://formspree.io/f/mvodweje">
         <div className="field half first">
@@ -26,6 +26,7 @@ const ContactPage = () => (
         <input type="reset" value="Clear" />
       </form>
     </section>
+    </article>
   </Layout>
 );
 
