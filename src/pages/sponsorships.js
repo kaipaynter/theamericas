@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-const LocationsPage = () => (
+const SponsorshipsPage = () => (
   <Layout fullMenu>
     <article id="main">
     <header>
@@ -17,4 +17,4 @@ const LocationsPage = () => (
   </Layout>
 );
 
-export default LocationsPage;
+export default SponsorshipsPage;
