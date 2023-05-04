@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktheamericas=self.webpackChunktheamericas||[]).push([[978],{6337:function(e,a,t){t.r(a);var l=t(7294),n=t(2737);a.default=()=>l.createElement(n.Z,{fullMenu:!0},l.createElement("article",{id:"main"},l.createElement("header",null),l.createElement("p",{className:"center"},"Sydney, Australia",l.createElement("br",null),"2130")))}}]);
+//# sourceMappingURL=component---src-pages-sponsorships-js-b481a440ac3008d7d61d.js.map
