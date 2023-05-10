@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktheamericas=self.webpackChunktheamericas||[]).push([[527],{1593:function(e,a,t){t.r(a);var l=t(7294),n=t(2737);a.default=()=>l.createElement(n.Z,{fullMenu:!0},l.createElement("article",{id:"main"},l.createElement("header",null,l.createElement("h2",null,"Locations")),l.createElement("p",{className:"center"},"Sydney, Australia",l.createElement("br",null),"2130")))}}]);
-//# sourceMappingURL=component---src-pages-locations-js-7959270fc0b5bcbcb35a.js.map
