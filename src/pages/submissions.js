@@ -1,6 +1,5 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image'
-
 import Layout from '../components/Layout';
 
 const SubmissionsPage = () => (
@@ -9,7 +8,7 @@ const SubmissionsPage = () => (
       <header />
       <span className="image fit">
         <StaticImage
-          src="../assets/images/The_Americas_Submission_Info.jpg"
+          src="../assets/images/submissions.png"
           alt="The Americas Submission Info"
           placeholder="blurred"
           objectFit="contain"
