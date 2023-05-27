@@ -9,7 +9,7 @@ const ContactPage = () => (
     <header />
 
     <section className="main">
-      <form method="post" action="https://formspree.io/f/mvodweje">
+      <form method="post" action="https://formspree.io/f/xjvpjdvb">
         <div className="field half first">
           <label htmlFor="name">Name</label>
           <input type="text" name="name" id="name" />
