@@ -12,7 +12,7 @@ const AboutPage = () => (
       </p>
       <p className='center'>
         <h4>Mission</h4>
-        To be the premier producer of transformative American theatre in Australia that enhances the American cultural identity by telling authentic and multifaceted stories of the U.S. experience. The Americas create exceptional theatrical experiences by using the arts to articulate messages that inspire freedom & hope - the cornerstones of American culture.
+        To be the premier producer of transformative American theatre in Australia that enhances the American cultural identity by telling authentic and multifaceted stories of the U.S. experience. The Americas create exceptional theatrical experiences by using the arts to articulate messages that inspire freedom & hope - the cornerstones of American values.
       </p>
       <p className='center'>
         <h4>Values</h4>
