@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktheamericas=self.webpackChunktheamericas||[]).push([[708],{6736:function(e,t,a){a.r(t);var l=a(1504),n=a(8004);t.default=()=>l.createElement(n.c,{fullMenu:!0},l.createElement("article",{id:"main"},l.createElement("header",null,l.createElement("h2",null,"Not Found"),l.createElement("p",null,"Not a Valid URL"))))}}]);
-//# sourceMappingURL=component---src-pages-404-js-2fec765af37c227dbdbb.js.map
