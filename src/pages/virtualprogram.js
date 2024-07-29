@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import program from "../../static/L-O-V-E_Program.pdf"
-import qr from "../assets/images/pic01.jpg"
+import qr from "../assets/images/program_qr_code.png"
 
 const VirtualProgramPage = () => (
   <Layout fullMenu>
@@ -27,7 +27,7 @@ const VirtualProgramPage = () => (
 
         <img
           src={qr}
-          alt="L-O-V-E Gala Press Release 1"
+          alt="L-O-V-E Program QR Code"
           width="300"
           height="300"
         />
