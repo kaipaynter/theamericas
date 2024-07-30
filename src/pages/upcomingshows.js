@@ -22,7 +22,7 @@ const UpcomingShowsPage = () => (
           </a>
         </p>
         <StaticImage
-          src="../assets/images/L-O-V-E_Gala_Press_release_v3.png"
+          src="../assets/images/L-O-V-E_Gala_Press_release.png"
           alt="L-O-V-E Gala Press Release 1"
           placeholder="blurred"
           objectFit="contain"
