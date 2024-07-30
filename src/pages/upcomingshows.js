@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/Layout';
+import program from "../../static/L-O-V-E_Program.pdf"
 
 const UpcomingShowsPage = () => (
   <Layout fullMenu>
@@ -9,12 +10,19 @@ const UpcomingShowsPage = () => (
       <span className="image fit">
         <p className='align-center'>
           <a
-            href='/virtualprogram'
+            href={program}
+            target="\_blank"
           >	Click here for our virtual program
           </a>
         </p>
+        <p className='align-center'>
+          <a
+            href="/virtualprogram"
+          >	QR code for our virtual program
+          </a>
+        </p>
         <StaticImage
-          src="../assets/images/L-O-V-E_Gala_Press_release_v2.png"
+          src="../assets/images/L-O-V-E_Gala_Press_release_v3.png"
           alt="L-O-V-E Gala Press Release 1"
           placeholder="blurred"
           objectFit="contain"
