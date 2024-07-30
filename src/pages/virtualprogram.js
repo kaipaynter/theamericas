@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import qr from "../assets/images/program_qr_code.png"
+import qr from "../assets/images/virtual_program_QR.png"
 
 const VirtualProgramPage = () => (
   <Layout fullMenu>
