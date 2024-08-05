@@ -15,15 +15,9 @@ const UpcomingShowsPage = () => (
           >	Click here for our virtual program
           </a>
         </p>
-        <p className='align-center'>
-          <a
-            href="/virtualprogram"
-          >	QR code for our virtual program
-          </a>
-        </p>
         <StaticImage
           src="../assets/images/L-O-V-E_Gala_Press_release.png"
-          alt="L-O-V-E Gala Press Release 1"
+          alt="L-O-V-E Gala Press Release"
           placeholder="blurred"
           objectFit="contain"
         />
