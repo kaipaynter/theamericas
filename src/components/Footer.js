@@ -1,20 +1,20 @@
 import React from 'react';
-//import config from '../../config';
+import config from '../../config';
 export default function Footer() {
   return (
     <footer id="footer">
-      {/* <ul className="icons">
+      <ul className="icons">
         {config.socialLinks.map(social => {
           const { style, icon, name, url } = social;
           return (
             <li key={url}>
-              <a href={url} className={`icon ${style} ${icon}`}>
+              <a href={url} target="_blank" rel="noreferrer" className={`icon ${style} ${icon}`}>
                 <span className="label">{name}</span>
               </a>
             </li>
           );
         })}
-      </ul> */}
+      </ul> 
       <ul className="copyright">
         <li>&copy; BearTiger Productions</li>
         <li>

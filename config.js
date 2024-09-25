@@ -11,24 +11,18 @@ module.exports = {
   heading: 'The Americas',
   //subHeading: 'Full time Web Developer. Part time Open source contributor  ',
   // social
-  /* socialLinks: [
+   socialLinks: [
     {
       style: 'brands',
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      icon: 'fa-facebook',
+      name: 'Facebook',
+      url: 'https://www.facebook.com/profile.php?id=61565633052387',
     },
     {
       style: 'brands',
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/theamericastheatreco/',
     },
-    {
-      style: 'solid',
-      icon: 'fa-envelope',
-      name: 'Email',
-      url: 'mailto:test@example.com',
-    },
-  ], */
+  ], 
 };
