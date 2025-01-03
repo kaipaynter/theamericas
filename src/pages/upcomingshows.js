@@ -2,6 +2,7 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/Layout';
 import program from "../../static/L-O-V-E_Program.pdf"
+import newsletter from "../../static/The_Americas_Newsletter_Jan_2025.pdf"
 
 const UpcomingShowsPage = () => (
   <Layout fullMenu>
@@ -13,6 +14,13 @@ const UpcomingShowsPage = () => (
             href={program}
             target="\_blank"
           >	Click here for our virtual program
+          </a>
+        </p>
+        <p className='align-center'>
+          <a
+            href={newsletter}
+            target="\_blank"
+          >	Click here for our newsletter
           </a>
         </p>
         <StaticImage
