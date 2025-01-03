@@ -16,14 +16,20 @@ const UpcomingShowsPage = () => (
           </a>
         </p>
         <StaticImage
-          src="../assets/images/new_show_1.png"
-          alt="New Show 1"
+          src="../assets/images/new_show_3.png"
+          alt="Summer/Fall Season"
           placeholder="blurred"
           objectFit="contain"
         />
         <StaticImage
-          src="../assets/images/new_show_2.png"
-          alt="New Show 2"
+          src="../assets/images/new_show_1.png"
+          alt="Megan"
+          placeholder="blurred"
+          objectFit="contain"
+        />
+        <StaticImage
+          src="../assets/images/new_show_4.png"
+          alt="No Direction Home"
           placeholder="blurred"
           objectFit="contain"
         />
