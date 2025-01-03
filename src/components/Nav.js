@@ -34,6 +34,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/submissions">Submissions</Link>
               </li>
               <li>
+                <Link to="/archive">Archive</Link>
+              </li>
+              <li>
                 <Link to="/contact">Contact</Link>
               </li>
             </ul>
