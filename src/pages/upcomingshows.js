@@ -16,20 +16,38 @@ const UpcomingShowsPage = () => (
           </a>
         </p>
         <StaticImage
-          src="../assets/images/new_show_3.png"
+          src="../assets/images/new_show.png"
           alt="Summer/Fall Season"
           placeholder="blurred"
           objectFit="contain"
         />
         <StaticImage
-          src="../assets/images/new_show_1.png"
+          src="../assets/images/megan.png"
           alt="Megan"
           placeholder="blurred"
           objectFit="contain"
         />
         <StaticImage
-          src="../assets/images/new_show_4.png"
+          src="../assets/images/no_direction_home.png"
           alt="No Direction Home"
+          placeholder="blurred"
+          objectFit="contain"
+        />
+        <StaticImage
+          src="../assets/images/in_convo.png"
+          alt="In Convo"
+          placeholder="blurred"
+          objectFit="contain"
+        />
+        <StaticImage
+          src="../assets/images/this_is_love.png"
+          alt="This is Love"
+          placeholder="blurred"
+          objectFit="contain"
+        />
+        <StaticImage
+          src="../assets/images/the_money_shot.png"
+          alt="The Money Shot"
           placeholder="blurred"
           objectFit="contain"
         />
