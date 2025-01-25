@@ -28,7 +28,7 @@ const UpcomingShowsPage = () => (
           objectFit="contain"
         />
         <StaticImage
-          src="../assets/images/no_direction_home.png"
+          src="../assets/images/no_direction_home_with_qr.png"
           alt="No Direction Home"
           placeholder="blurred"
           objectFit="contain"
