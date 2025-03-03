@@ -26,6 +26,6 @@ jobs:
       # Run `gatsby build`.
       - name: build
         run: npm run build
-      # Run the Jest unit tests and generate a coverage report.
+      # Run the Jest unit tests and generate a coverage report. test
       # - name: test
        # run: npm test -- --coverage
