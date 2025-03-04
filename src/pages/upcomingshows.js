@@ -1,12 +1,12 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/Layout';
-import newsletter from "../../static/L-O-V-E_Program_latest.pdf"
+import newsletter from "../../static/The_Americas_Newsletter_Jan_2025.pdf"
 
 const UpcomingShowsPage = () => (
   <Layout fullMenu>
     <article id="main">
-      <header />
+      <header />The_Americas_Newsletter_Jan_2025
       <span className="image fit">
         <p className='align-center'>
           <a
