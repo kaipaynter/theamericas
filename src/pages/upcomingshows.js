@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/Layout';
-import newsletter from "../../static/The_Americas_Newsletter_Jan_2025.pdf"
+import newsletter from "../../static/L-O-V-E_Program_latest.pdf"
 
 const UpcomingShowsPage = () => (
   <Layout fullMenu>
