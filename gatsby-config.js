@@ -1,7 +1,7 @@
 const config = require('./config');
 
 module.exports = {
-  //pathPrefix: config.pathPrefix,
+  // pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
     description: config.siteDescription,
@@ -10,6 +10,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-fastify',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -25,17 +26,18 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     'gatsby-plugin-image',
+    'gatsby-plugin-preload-fonts',
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaults: {
-          placeholder: `blurred`,
-          quality: 50,
+          placeholder: `blurred`, // Placeholder type
+          quality: 50, // Lower quality for faster builds
         },
         failOn: `none`, // Replaces deprecated failOnError
         stripMetadata: true,
         defaultQuality: 75,
-        concurrency: 2 // Limit concurrency to reduce memory usage
+        concurrency: 2, // Limit concurrency to reduce memory usage
       },
     },
     {
@@ -49,6 +51,7 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/assets/images/`,
+        ignore: [`**/unused/**`], // Ignore unused directories
       },
     },
     {
@@ -56,6 +59,12 @@ module.exports = {
       options: {
         name: `static`,
         path: `${__dirname}/static/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
+      options: {
+        disable: process.env.NODE_ENV !== 'production',
       },
     },
   ],
