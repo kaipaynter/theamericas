@@ -25,8 +25,25 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     'gatsby-plugin-image',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          formats: [`auto`, `webp`, `avif`],
+          placeholder: `blurred`,
+          quality: 50,
+        },
+        failOnError: false,
+        stripMetadata: true,
+        defaultQuality: 75,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+        checkSupportedExtensions: false,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
