@@ -33,7 +33,7 @@ module.exports = {
           placeholder: `blurred`,
           quality: 50,
         },
-        failOnError: false,
+        failOn: `none`, // Replaces deprecated failOnError
         stripMetadata: true,
         defaultQuality: 75,
       },
