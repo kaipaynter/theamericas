@@ -29,13 +29,16 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaults: {
-          formats: [`auto`, `webp`, `avif`],
           placeholder: `blurred`,
           quality: 50,
         },
-        failOnError: false,
+        failOnError: true,
+        base64Width: 20,
+        forceBase64Format: `webp`, // Use WebP for base64 images
+        useMozJpeg: true,
         stripMetadata: true,
         defaultQuality: 75,
+        concurrency: 2 // Limit concurrency to reduce memory usage
       },
     },
     {

@@ -27,8 +27,8 @@
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
-    "develop": "gatsby develop",
-    "build": "npm run clean && gatsby build",
+    "develop": "NODE_OPTIONS='--max_old_space_size=8192' gatsby develop",
+    "build": "NODE_OPTIONS='--max_old_space_size=8192' gatsby build",
     "serve": "gatsby serve",
     "clean": "rimraf .cache public",
     "format": "prettier --write '**/*.js'",
