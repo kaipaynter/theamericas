@@ -3,9 +3,11 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/Layout';
 import newsletter from "../../static/The_Americas_Newsletter_Jan_2025.pdf"
 import wslm from "../assets/images/When_She_Loves_Me.png"
-import megan from "../assets/images/MEG.jpg"
+import megan from "../assets/images/megan.jpg"
 import convo from "../assets/images/CONVO_poster.jpg"
 import til from "../assets/images/TIL_poster.png"
+import ndh from "../assets/images/ndh.jpg"
+import moneyshot from "../assets/images/money_shot_poster.jpg"
 
 const UpcomingShowsPage = () => (
   <Layout fullMenu>
@@ -41,7 +43,7 @@ const UpcomingShowsPage = () => (
         </a>
 
         {/* No direction home */}
-        <a href={megan} target='\blank'>
+        <a href={ndh} target='\blank'>
           <StaticImage
             src="../assets/images/no_direction_home_with_qr.png"
             alt="No Direction Home"
@@ -71,7 +73,7 @@ const UpcomingShowsPage = () => (
         </a>
 
         {/* The Money Shot */}
-        <a href={megan} target='\blank'>
+        <a href={moneyshot} target='\blank'>
           <StaticImage
             src="../assets/images/the_money_shot.png"
             alt="The Money Shot"
