@@ -25,7 +25,7 @@
     "gatsby-source-filesystem": "^5.5.0",
     "gatsby-transformer-sharp": "^5.14.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react-dom": "^19.1.0",
     "react-helmet": "^6.1.0",
     "sass": "^1.86.0",
     "smoothscroll-polyfill": "^0.4.4"
