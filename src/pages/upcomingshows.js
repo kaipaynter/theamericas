@@ -7,7 +7,7 @@ import megan from "../assets/images/megan.jpg"
 import convo from "../assets/images/CONVO_poster.jpg"
 import til from "../assets/images/TIL_poster.png"
 import ndh from "../assets/images/ndh.jpg"
-import moneyshot from "../assets/images/money_shot_poster.jpg"
+import moneyshot from "../assets/images/money_shot_poster_qr.JPG"
 
 const UpcomingShowsPage = () => (
   <Layout fullMenu>
@@ -75,7 +75,7 @@ const UpcomingShowsPage = () => (
         {/* The Money Shot */}
         <a href={moneyshot} target='\blank'>
           <StaticImage
-            src="../assets/images/the_money_shot_qr.JPG"
+            src="../assets/images/the_money_shot.png"
             alt="The Money Shot"
             placeholder="blurred"
             objectFit="contain"
