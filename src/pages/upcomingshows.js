@@ -75,7 +75,7 @@ const UpcomingShowsPage = () => (
         {/* The Money Shot */}
         <a href={moneyshot} target='\blank'>
           <StaticImage
-            src="../assets/images/the_money_shot.png"
+            src="../assets/images/the_money_shot_qr.JPG"
             alt="The Money Shot"
             placeholder="blurred"
             objectFit="contain"
