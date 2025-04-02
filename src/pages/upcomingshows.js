@@ -7,7 +7,7 @@ import megan from "../assets/images/megan.jpg"
 import convo from "../assets/images/CONVO_poster.jpg"
 import til from "../assets/images/TIL_poster.png"
 import ndh from "../assets/images/ndh.jpg"
-import moneyshot from "../assets/images/money_shot_poster_qr.jpg"
+import moneyshot from "../assets/images/money_shot_poster_qr_v2.jpg"
 
 const UpcomingShowsPage = () => (
   <Layout fullMenu>
