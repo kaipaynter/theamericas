@@ -14,6 +14,14 @@ jobs:
       # This is roughly equivalent to running `git checkout`.
       - name: Checkout source
         uses: actions/checkout@v1
+      #Manage cache
+      - name: Restore npm cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
       # Install the version of Node.js used by project.
       - name: Setup node
         uses: actions/setup-node@v2
