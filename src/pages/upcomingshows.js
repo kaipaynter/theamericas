@@ -26,6 +26,16 @@ const UpcomingShowsPage = () => (
             objectFit="contain"
           />
         </a>
+
+        {/* The Money Shot */}
+        <a href="https://www.factorytheatre.com.au/event/the-money-shot/" target='\blank'>
+          <StaticImage
+            src="../assets/images/the_money_shot.png"
+            alt="The Money Shot"
+            placeholder="blurred"
+            objectFit="contain"
+          />
+        </a>
       </span>
     </article>
   </Layout>
