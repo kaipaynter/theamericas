@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import qr from "../assets/images/virtual_program_QR.png"
-import ms_program from "../../static/The _Money_Shot_Program.pdf"
+import ms_program from "../../static/The_Money_Shot_Program.pdf"
 
 const VirtualProgramPage = () => (
   <Layout fullMenu>
