@@ -1,7 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/Layout';
-import newsletter from "../../static/The_Americas_Newsletter_April_2025.pdf"
 import moneyshot from "../../static/The_Money_Shot_MEDIA_KIT.pdf"
 
 const UpcomingShowsPage = () => (
@@ -9,13 +8,7 @@ const UpcomingShowsPage = () => (
     <article id="main">
       <header />
       <span className="image fit">
-        <p className='align-center'>
-          <a
-            href={newsletter}
-            target="\_blank"
-          >	Click here for our newsletter
-          </a>
-        </p>
+        
 
         {/* The Money Shot */}
         <a href={moneyshot} target='\blank'>

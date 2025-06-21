@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import loveprogram2025 from "../../static/L-O-V-E_Program_2025.pdf"
 import loveprogram2024 from "../../static/L-O-V-E_Program_2024.pdf"
-import posterqr from "../../static/Poster_QR.pdf"
+import atlposter from "../assets/images/ATL_NEW_POSTER.jpg"
 
 const ResourcesPage = () => (
     <Layout fullMenu>
@@ -24,7 +24,7 @@ const ResourcesPage = () => (
             </p>
              <p className='align-center'>
                 <a
-                    href={posterqr}
+                    href={atlposter}
                     target="\_blank"
                 >	Amongst The Living
                 </a>
