@@ -1,6 +1,9 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/Layout';
+import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
+import bis from "../assets/images/bis_synopsis.jpg"
+import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
 
 
 const UpcomingShowsPage = () => (
@@ -30,7 +33,7 @@ const UpcomingShowsPage = () => (
         </a>
 
         {/* All the ways to say I love you */}
-        <a href="https://beartigerprodmgmt.getform.com/9dn98" target='\blank'>
+        <a href={atwtsily} target='\blank'>
           <StaticImage
             src="../assets/images/atwtsily.jpg"
             alt="All the ways to say I love you"
@@ -40,7 +43,7 @@ const UpcomingShowsPage = () => (
         </a>
 
         {/* Behanding in Spokane */}
-        <a href="https://beartigerprodmgmt.getform.com/9dn98" target='\blank'>
+        <a href={bis} target='\blank'>
           <StaticImage
             src="../assets/images/bis.jpg"
             alt="Behanding in Spokane"
@@ -50,7 +53,7 @@ const UpcomingShowsPage = () => (
         </a>
 
         {/* Johnny Frankie in the Clair De Lune */}
-        <a href="https://beartigerprodmgmt.getform.com/9dn98" target='\blank'>
+        <a href={jfitcdl} target='\blank'>
           <StaticImage
             src="../assets/images/jfitcdl.jpg"
             alt="Johnny Frankie in the Clair De Lune"
