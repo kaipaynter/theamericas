@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/Layout';
-import moneyshot from "../../static/The_Money_Shot_MEDIA_KIT.pdf"
+
 
 const UpcomingShowsPage = () => (
   <Layout fullMenu>
@@ -10,21 +10,50 @@ const UpcomingShowsPage = () => (
       <span className="image fit">
         
 
-        {/* The Money Shot */}
-        <a href={moneyshot} target='\blank'>
+        {/* Title Card */}
+
           <StaticImage
-            src="../assets/images/money_shot_poster_qr_v2.jpg"
-            alt="The Money Shot"
+            src="../assets/images/new_show.png"
+            alt="Title Card for Upcoming Shows"
+            placeholder="blurred"
+            objectFit="contain"
+          />
+
+        {/* Amongst the living */}
+        <a href="https://beartigerprodmgmt.getform.com/9dn98" target='\blank'>
+          <StaticImage
+            src="../assets/images/atl_new_poster.jpg"
+            alt="Amongst The Living"
             placeholder="blurred"
             objectFit="contain"
           />
         </a>
 
-        {/* The Money Shot */}
-        <a href="https://www.factorytheatre.com.au/event/the-money-shot/" target='\blank'>
+        {/* All the ways to say I love you */}
+        <a href="https://beartigerprodmgmt.getform.com/9dn98" target='\blank'>
           <StaticImage
-            src="../assets/images/the_money_shot.png"
-            alt="The Money Shot"
+            src="../assets/images/atwtsily.jpg"
+            alt="All the ways to say I love you"
+            placeholder="blurred"
+            objectFit="contain"
+          />
+        </a>
+
+        {/* Behanding in Spokane */}
+        <a href="https://beartigerprodmgmt.getform.com/9dn98" target='\blank'>
+          <StaticImage
+            src="../assets/images/bis.jpg"
+            alt="Behanding in Spokane"
+            placeholder="blurred"
+            objectFit="contain"
+          />
+        </a>
+
+        {/* Johnny Frankie in the Clair De Lune */}
+        <a href="https://beartigerprodmgmt.getform.com/9dn98" target='\blank'>
+          <StaticImage
+            src="../assets/images/jfitcdl.jpg"
+            alt="Johnny Frankie in the Clair De Lune"
             placeholder="blurred"
             objectFit="contain"
           />

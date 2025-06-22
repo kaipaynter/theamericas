@@ -3,6 +3,9 @@ import Layout from '../components/Layout';
 import loveprogram2025 from "../../static/L-O-V-E_Program_2025.pdf"
 import loveprogram2024 from "../../static/L-O-V-E_Program_2024.pdf"
 import atlposter from "../assets/images/atl_new_poster.jpg"
+import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
+import bis from "../assets/images/bis_synopsis.jpg"
+import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
 
 const ResourcesPage = () => (
     <Layout fullMenu>
@@ -27,6 +30,27 @@ const ResourcesPage = () => (
                     href={atlposter}
                     target="\_blank"
                 >	Amongst The Living
+                </a>
+            </p>
+            <p className='align-center'>
+                <a
+                    href={atwtsily}
+                    target="\_blank"
+                >	All the ways to say I love you
+                </a>
+            </p>
+            <p className='align-center'>
+                <a
+                    href={bis}
+                    target="\_blank"
+                >	Behanding in Spokane
+                </a>
+            </p>
+            <p className='align-center'>
+                <a
+                    href={jfitcdl}
+                    target="\_blank"
+                >	Johnny Frankie in the Clair De Lune
                 </a>
             </p>
         </article>
