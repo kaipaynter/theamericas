@@ -4,63 +4,59 @@ import Layout from '../components/Layout';
 import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
 import bis from "../assets/images/bis_synopsis.jpg"
 import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
+import atlPoster from "../assets/images/atl_new_poster.jpg"
+import atwtsilyPoster from "../assets/images/atwtsily.jpg"
+import bisPoster from "../assets/images/bis.jpg"
+import jfitcdlPoster from "../assets/images/jfitcdl.jpg"
 
+const shows = [
+  {
+    href: "https://beartigerprodmgmt.getform.com/9dn98",
+    imgSrc: atlPoster,
+    alt: "Amongst The Living",
+  },
+  {
+    href: atwtsily,
+    imgSrc: atwtsilyPoster,
+    alt: "All the ways to say I love you",
+  },
+  {
+    href: bis,
+    imgSrc: bisPoster,
+    alt: "Behanding in Spokane",
+  },
+  {
+    href: jfitcdl,
+    imgSrc: jfitcdlPoster,
+    alt: "Johnny Frankie in the Clair De Lune",
+  },
+];
 
 const UpcomingShowsPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header />
       <span className="image fit">
-        
-
         {/* Title Card */}
-
-          <StaticImage
-            src="../assets/images/new_show.png"
-            alt="Title Card for Upcoming Shows"
-            placeholder="blurred"
-            objectFit="contain"
-          />
-
-        {/* Amongst the living */}
-        <a href="https://beartigerprodmgmt.getform.com/9dn98" target='\blank'>
-          <StaticImage
-            src="../assets/images/atl_new_poster.jpg"
-            alt="Amongst The Living"
-            placeholder="blurred"
-            objectFit="contain"
-          />
-        </a>
-
-        {/* All the ways to say I love you */}
-        <a href={atwtsily} target='\blank'>
-          <StaticImage
-            src="../assets/images/atwtsily.jpg"
-            alt="All the ways to say I love you"
-            placeholder="blurred"
-            objectFit="contain"
-          />
-        </a>
-
-        {/* Behanding in Spokane */}
-        <a href={bis} target='\blank'>
-          <StaticImage
-            src="../assets/images/bis.jpg"
-            alt="Behanding in Spokane"
-            placeholder="blurred"
-            objectFit="contain"
-          />
-        </a>
-
-        {/* Johnny Frankie in the Clair De Lune */}
-        <a href={jfitcdl} target='\blank'>
-          <StaticImage
-            src="../assets/images/jfitcdl.jpg"
-            alt="Johnny Frankie in the Clair De Lune"
-            placeholder="blurred"
-            objectFit="contain"
-          />
-        </a>
+        <StaticImage
+          src="../assets/images/new_show.png"
+          alt="Title Card for Upcoming Shows"
+          placeholder="blurred"
+          objectFit="contain"
+        />
+        <ul style={{ listStyle: "none", padding: 0 }}>
+          {shows.map((show, idx) => (
+            <li key={idx} style={{ marginBottom: "2rem" }}>
+              <a href={show.href} target="_blank" rel="noreferrer">
+                <img
+                  src={show.imgSrc}
+                  alt={show.alt}
+                  style={{ width: "100%", height: "auto", objectFit: "contain" }}
+                />
+              </a>
+            </li>
+          ))}
+        </ul>
       </span>
     </article>
   </Layout>
