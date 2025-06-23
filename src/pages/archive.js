@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
 import lovepressrelease from "../assets/images/L-O-V-E_Gala_Press_release.png"
-import meg from "../assets/images/MEG.jpg"
+import meg from "../assets/images/megan.jpg"
 import ndh from "../../static/NDH_Program.pdf"
 import wslm from "../assets/images/When_She_Loves_Me.png"
 import TIL_program from "../../static/L-O-V-E_Program_2025.pdf"
