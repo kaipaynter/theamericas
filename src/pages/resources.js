@@ -7,54 +7,50 @@ import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
 import bis from "../assets/images/bis_synopsis.jpg"
 import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
 
+const resources = [
+  {
+    href: loveprogram2025,
+    label: "L-O-V-E by Kai Paynter & Allan Staples 2025",
+  },
+  {
+    href: loveprogram2024,
+    label: "L-O-V-E by Kai Paynter & Allan Staples 2024",
+  },
+  {
+    href: atlposter,
+    label: "Amongst The Living",
+  },
+  {
+    href: atwtsily,
+    label: "All the ways to say I love you",
+  },
+  {
+    href: bis,
+    label: "Behanding in Spokane",
+  },
+  {
+    href: jfitcdl,
+    label: "Johnny Frankie in the Clair De Lune",
+  },
+];
+
 const ResourcesPage = () => (
-    <Layout fullMenu>
-        <article id="main">
-            <header />
-            <p className='align-center'>
-                <a
-                    href={loveprogram2025}
-                    target="\_blank"
-                >	L-O-V-E by Kai Paynter & Allan Staples 2025
-                </a>
-            </p>
-            <p className='align-center'>
-                <a
-                    href={loveprogram2024}
-                    target="\_blank"
-                >	L-O-V-E by Kai Paynter & Allan Staples 2024
-                </a>
-            </p>
-             <p className='align-center'>
-                <a
-                    href={atlposter}
-                    target="\_blank"
-                >	Amongst The Living
-                </a>
-            </p>
-            <p className='align-center'>
-                <a
-                    href={atwtsily}
-                    target="\_blank"
-                >	All the ways to say I love you
-                </a>
-            </p>
-            <p className='align-center'>
-                <a
-                    href={bis}
-                    target="\_blank"
-                >	Behanding in Spokane
-                </a>
-            </p>
-            <p className='align-center'>
-                <a
-                    href={jfitcdl}
-                    target="\_blank"
-                >	Johnny Frankie in the Clair De Lune
-                </a>
-            </p>
-        </article>
-    </Layout>
+  <Layout fullMenu>
+    <article id="main">
+      <header />
+      {resources.map((item, idx) => (
+        <p className="align-center" key={idx}>
+          <a
+            href={item.href}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {item.label}
+          </a>
+        </p>
+      ))}
+    </article>
+  </Layout>
 );
 
 export default ResourcesPage;
