@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import loveprogram2025 from "../../static/L-O-V-E_Program_2025.pdf"
 import loveprogram2024 from "../../static/L-O-V-E_Program_2024.pdf"
-import atlposter from "../assets/images/atl_new_poster.jpg"
+import atlposter from "../assets/images/atl_poster_latest.jpg"
 import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
 import bis from "../assets/images/bis_synopsis.jpg"
 import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
