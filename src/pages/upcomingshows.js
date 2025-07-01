@@ -3,7 +3,6 @@ import Layout from '../components/Layout';
 import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
 import bis from "../assets/images/bis_synopsis.jpg"
 import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
-import atlPoster from "../assets/images/atl_poster_latest.jpg"
 import atwtsilyPoster from "../assets/images/atwtsily.jpg"
 import bisPoster from "../assets/images/bis.jpg"
 import jfitcdlPoster from "../assets/images/jfitcdl.jpg"
@@ -15,11 +14,6 @@ const shows = [
     href: "",
     imgSrc: titlecard,
     alt: "Title Card for Upcoming Shows",
-  },
-  {
-    href: "https://beartigerprodmgmt.getform.com/9dn98",
-    imgSrc: atlPoster,
-    alt: "Amongst The Living",
   },
   {
     href: atwtsily,

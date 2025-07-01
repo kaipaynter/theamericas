@@ -4,6 +4,7 @@ import meg from "../assets/images/megan.jpg"
 import ndh from "../../static/NDH_Program.pdf"
 import wslm from "../assets/images/When_She_Loves_Me.png"
 import TIL_program from "../../static/L-O-V-E_Program_2025.pdf"
+import atlPoster from "../assets/images/atl_poster_latest.jpg"
 import React from 'react';
 
 const ArchivePage = () => (
@@ -52,6 +53,14 @@ const ArchivePage = () => (
         >	The Australian Premiere of The Money Shot by Neil LaBute 2025
         </a>
       </p>
+      <p className='align-center'>
+        <a
+          href={atlPoster}
+          target="\_blank"
+        >	Amongst The Living
+        </a>
+      </p>
+
     </article>
   </Layout>
 );
