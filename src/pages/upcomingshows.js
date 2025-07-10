@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
 import bis from "../assets/images/bis_synopsis.jpg"
 import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
-import atwtsilyPoster from "../assets/images/atwtsily.jpg"
+import atwtsilyPoster from "../assets/images/ATWTSILY_poster_ALT.jpg"
 import bisPoster from "../assets/images/bis.jpg"
 import jfitcdlPoster from "../assets/images/jfitcdl.jpg"
 import titlecard from "../assets/images/new_show.png"
