@@ -18,6 +18,7 @@ const ResourcesPage = () => (
                 <a
                     href={winterspringmediakit}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	2025 Winter Spring Media Kit
                 </a>
             </p>
@@ -25,6 +26,7 @@ const ResourcesPage = () => (
                 <a
                     href={atwtsilyposter}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	All the ways to say I love you poster
                 </a>
             </p>
@@ -32,6 +34,7 @@ const ResourcesPage = () => (
                 <a
                     href={themoneyshotmediakit}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	The Money Shot Media Kit
                 </a>
             </p>
@@ -39,6 +42,7 @@ const ResourcesPage = () => (
                 <a
                     href={loveprogram2025}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	L-O-V-E by Kai Paynter & Allan Staples 2025
                 </a>
             </p>
@@ -46,6 +50,7 @@ const ResourcesPage = () => (
                 <a
                     href={loveprogram2024}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	L-O-V-E by Kai Paynter & Allan Staples 2024
                 </a>
             </p>
@@ -53,6 +58,7 @@ const ResourcesPage = () => (
                 <a
                     href={atlposter}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	Amongst The Living
                 </a>
             </p>
@@ -60,6 +66,7 @@ const ResourcesPage = () => (
                 <a
                     href={atwtsily}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	All the ways to say I love you
                 </a>
             </p>
@@ -67,6 +74,7 @@ const ResourcesPage = () => (
                 <a
                     href={bis}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	Behanding in Spokane
                 </a>
             </p>
@@ -74,6 +82,7 @@ const ResourcesPage = () => (
                 <a
                     href={jfitcdl}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	Johnny Frankie in the Clair De Lune
                 </a>
             </p>
