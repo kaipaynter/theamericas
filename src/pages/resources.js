@@ -8,6 +8,7 @@ import atlposter from "../assets/images/atl_poster_latest.jpg"
 import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
 import bis from "../assets/images/bis_synopsis.jpg"
 import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
+import atwtsilyposter from "../../static/ATWTSILY_Poster_All_Info_Blue.pdf"
 
 const ResourcesPage = () => (
     <Layout fullMenu>
@@ -17,13 +18,23 @@ const ResourcesPage = () => (
                 <a
                     href={winterspringmediakit}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	2025 Winter Spring Media Kit
+                </a>
+            </p>
+            <p className='align-center'>
+                <a
+                    href={atwtsilyposter}
+                    target="\_blank"
+                    rel="noopener noreferrer"
+                >	All the ways to say I love you poster
                 </a>
             </p>
             <p className='align-center'>
                 <a
                     href={themoneyshotmediakit}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	The Money Shot Media Kit
                 </a>
             </p>
@@ -31,6 +42,7 @@ const ResourcesPage = () => (
                 <a
                     href={loveprogram2025}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	L-O-V-E by Kai Paynter & Allan Staples 2025
                 </a>
             </p>
@@ -38,6 +50,7 @@ const ResourcesPage = () => (
                 <a
                     href={loveprogram2024}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	L-O-V-E by Kai Paynter & Allan Staples 2024
                 </a>
             </p>
@@ -45,6 +58,7 @@ const ResourcesPage = () => (
                 <a
                     href={atlposter}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	Amongst The Living
                 </a>
             </p>
@@ -52,6 +66,7 @@ const ResourcesPage = () => (
                 <a
                     href={atwtsily}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	All the ways to say I love you
                 </a>
             </p>
@@ -59,6 +74,7 @@ const ResourcesPage = () => (
                 <a
                     href={bis}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	Behanding in Spokane
                 </a>
             </p>
@@ -66,6 +82,7 @@ const ResourcesPage = () => (
                 <a
                     href={jfitcdl}
                     target="\_blank"
+                    rel="noopener noreferrer"
                 >	Johnny Frankie in the Clair De Lune
                 </a>
             </p>
