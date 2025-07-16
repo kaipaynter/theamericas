@@ -8,6 +8,7 @@ import atlposter from "../assets/images/atl_poster_latest.jpg"
 import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
 import bis from "../assets/images/bis_synopsis.jpg"
 import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
+import atwtsilyposter from "../../static/ATWTSILY_Poster_All_Info_Blue.pdf"
 
 const ResourcesPage = () => (
     <Layout fullMenu>
@@ -18,6 +19,13 @@ const ResourcesPage = () => (
                     href={winterspringmediakit}
                     target="\_blank"
                 >	2025 Winter Spring Media Kit
+                </a>
+            </p>
+            <p className='align-center'>
+                <a
+                    href={atwtsilyposter}
+                    target="\_blank"
+                >	All the ways to say I love you poster
                 </a>
             </p>
             <p className='align-center'>
