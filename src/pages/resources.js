@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import loveprogram2025 from "../../static/L-O-V-E_Program_2025.pdf"
 import loveprogram2024 from "../../static/L-O-V-E_Program_2024.pdf"
-import winterspringmediakit from "../../static/2025_Winter_Spring_Media_Kit.pdf"
+import winterspringmediakit from "../../static/2025_Winter_Spring_Media_Kit_v2.pdf"
 import themoneyshotmediakit from "../../static/The_Money_Shot_MEDIA_KIT.pdf"
 import atlposter from "../assets/images/atl_poster_latest.jpg"
 import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
