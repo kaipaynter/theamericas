@@ -21,11 +21,6 @@ const shows = [
     alt: "All the ways to say I love you",
   },
   {
-    href: bis,
-    imgSrc: bisPoster,
-    alt: "Behanding in Spokane",
-  },
-  {
     href: jfitcdl,
     imgSrc: jfitcdlPoster,
     alt: "Johnny Frankie in the Clair De Lune",
