@@ -9,6 +9,7 @@ import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
 import bis from "../assets/images/bis_synopsis.jpg"
 import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
 import atwtsilyposter from "../../static/ATWTSILY_Poster_All_Info_Blue.pdf"
+import ABIS from "../assets/images/ABIS_poster_v2.jpg"
 
 const ResourcesPage = () => (
     <Layout fullMenu>
@@ -84,6 +85,14 @@ const ResourcesPage = () => (
                     target="\_blank"
                     rel="noopener noreferrer"
                 >	Johnny Frankie in the Clair De Lune
+                </a>
+            </p>
+            <p className='align-center'>
+                <a
+                    href={ABIS}
+                    target="\_blank"
+                    rel="noopener noreferrer"
+                >	A Behanding in Spokane
                 </a>
             </p>
         </article>
