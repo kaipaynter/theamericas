@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import atwtsily from "../assets/images/atwtsily_synopsis.jpg"
 import bis from "../assets/images/bis_synopsis.jpg"
 import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
-import atwtsilyPoster from "../assets/images/ABIS_poster.jpg"
+import atwtsilyPoster from "../assets/images/ABIS_poster_v2.jpg"
 import bisPoster from "../assets/images/bis.jpg"
 import jfitcdlPoster from "../assets/images/jfitcdl.jpg"
 import titlecard from "../assets/images/new_show.png"
@@ -19,11 +19,6 @@ const shows = [
     href: "https://beartigerprodmgmt.getform.com/dxjpk",
     imgSrc: atwtsilyPoster,
     alt: "All the ways to say I love you",
-  },
-  {
-    href: bis,
-    imgSrc: bisPoster,
-    alt: "Behanding in Spokane",
   },
   {
     href: jfitcdl,
