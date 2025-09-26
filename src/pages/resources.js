@@ -10,6 +10,7 @@ import bis from "../assets/images/bis_synopsis.jpg"
 import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
 import atwtsilyposter from "../../static/ATWTSILY_Poster_All_Info_Blue.pdf"
 import ABIS from "../assets/images/ABIS_poster_v2.jpg"
+import bp6 from "../../static/Behanding_Program_6.pdf"
 
 const ResourcesPage = () => (
     <Layout fullMenu>
@@ -93,6 +94,14 @@ const ResourcesPage = () => (
                     target="\_blank"
                     rel="noopener noreferrer"
                 >	A Behanding in Spokane
+                </a>
+            </p>
+             <p className='align-center'>
+                <a
+                    href={bp6}
+                    target="\_blank"
+                    rel="noopener noreferrer"
+                >	A Behanding in Spokane program
                 </a>
             </p>
         </article>
