@@ -98,7 +98,7 @@ const ResourcesPage = () => (
             </p>
              <p className='align-center'>
                 <a
-                    href={bp6}
+                    href={bp7}
                     target="\_blank"
                     rel="noopener noreferrer"
                 >	A Behanding in Spokane program
