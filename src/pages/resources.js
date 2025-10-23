@@ -11,6 +11,7 @@ import jfitcdl from "../assets/images/jfitcdl_synopsis.jpg"
 import atwtsilyposter from "../../static/ATWTSILY_Poster_All_Info_Blue.pdf"
 import ABIS from "../assets/images/ABIS_poster_v2.jpg"
 import bp7 from "../../static/Behanding_Program_7.pdf"
+import iins from "../../static/IINS_Legs.jpeg"
 
 const ResourcesPage = () => (
     <Layout fullMenu>
@@ -102,6 +103,14 @@ const ResourcesPage = () => (
                     target="\_blank"
                     rel="noopener noreferrer"
                 >	A Behanding in Spokane program
+                </a>
+            </p>
+            <p className='align-center'>
+                <a
+                    href={iins}
+                    target="\_blank"
+                    rel="noopener noreferrer"
+                >	If I Needed Someone
                 </a>
             </p>
         </article>
