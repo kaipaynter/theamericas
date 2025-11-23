@@ -12,7 +12,7 @@ import atwtsilyposter from "../../static/ATWTSILY_Poster_All_Info_Blue.pdf"
 import ABIS from "../assets/images/ABIS_poster_v2.jpg"
 import bp7 from "../../static/Behanding_Program_7.pdf"
 import iins from "../../static/IINS_Legs.jpeg"
-import iinsprogram from "../../static/IiNS_Program_Ver_3.1.pdf"
+import iinsprogram from "../../static/IiNS_Program_Ver_4.1.pdf"
 
 const ResourcesPage = () => (
     <Layout fullMenu>
