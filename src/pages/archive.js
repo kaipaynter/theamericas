@@ -83,7 +83,14 @@ const ArchivePage = () => (
         >	A Behanding in Spokane by Martin McDonagh
         </a>
       </p>
-
+      <p className='align-center'>
+        <a
+          href="https://diversityaustraliamagazine.com/2025/11/27/the-journey-and-face-behind-australias-first-american-led-theatre-company-interview-w-kai-paynter/"
+          target="\_blank"
+          rel="noopener noreferrer"
+        >	The journey and face behind Australia’s first American-led theatre company: Interview w/ Kai Paynter
+        </a>
+      </p>
     </article>
   </Layout>
 );
