@@ -91,6 +91,30 @@ const ArchivePage = () => (
         >	The journey and face behind Australia’s first American-led theatre company: Interview w/ Kai Paynter
         </a>
       </p>
+      <p className='align-center'>
+        <a
+          href="https://www.artshub.com.au/news/reviews/theatre-review-short-sweet-sydney-opening-week-heat-1-2025-2776281/"
+          target="\_blank"
+          rel="noopener noreferrer"
+        >	Megan by Allan Staples
+        </a>
+      </p>
+      <p className='align-center'>
+        <a
+          href="https://theatrereds.com/2025/03/10/this-is-l-o-v-e/"
+          target="\_blank"
+          rel="noopener noreferrer"
+        >	This Is L-O-V-E Returns to Sydney
+        </a>
+      </p>
+      <p className='align-center'>
+        <a
+          href="https://diversityaustraliamagazine.com/2024/08/29/l-o-v-e-opens-at-kxt-officially-launching-australias-first-american-led-theatre-company-the-americas/"
+          target="\_blank"
+          rel="noopener noreferrer"
+        >	Touchdown: The Americas Launches in Australia
+        </a>
+      </p>
     </article>
   </Layout>
 );
