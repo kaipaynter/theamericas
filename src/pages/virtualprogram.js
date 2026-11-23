@@ -4,6 +4,7 @@ import qr from "../assets/images/virtual_program_QR.png"
 import ms_program from "../../static/The_Money_Shot_Program.pdf"
 import atl_program from "../../static/AmongstTheLivingProgram.pdf"
 import atwtsily_program from "../../static/ATWTSILY_Program.pdf"
+import texas_program from "../../static/Texas_Sharpshooter_Fallacy_Virtual_Program.pdf"
 
 const VirtualProgramPage = () => (
   <Layout fullMenu>
@@ -43,6 +44,13 @@ const VirtualProgramPage = () => (
               </a>
             </p>
 
+      <p className='align-center'>
+              <a
+                href={texas_program}
+                target="\_blank"
+              >	Texas Sharpshooter Fallacy
+              </a>
+            </p>
     </article>
   </Layout>
 );
